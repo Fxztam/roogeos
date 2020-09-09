@@ -1,37 +1,26 @@
-The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications.
+RoOgeoS - Ring of Oracle GeoJSON Service.
+
+
+# Introduction 
+
+
+The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with the standardized services. 
+The GeoJSON data format for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
+
+The following is a demonstration of the interoperability by low code and transparency in the data process, spatial data quality assurance, and service delivery.  
+
+True to the definition of Geographical Information Systems (GIS)::
+
+ 	Input - Management - Analysis - Presentation :  I M A P principe
+
+is the following workflow implemented:
 
 
 
-# Quick Links
+** GeoJSON File => Storage in Feature Table (Input)
+=> Validation and Indexing (Management & Analyzing)
+=> GeoJSON RESTful Data Service & Map viewing (Presentation) .**
+
+<iframe src="https://www.fmatz.com/RoOGJ/RoOGJ-Gilmoure_player.html" style="width:100%; height:800px;" </iframe>
 
 
-
-* Project Page - https://bitbucket.org/chromiumembedded/cef
-
-* Tutorial - https://bitbucket.org/chromiumembedded/cef/wiki/Tutorial
-
-* General Usage - https://bitbucket.org/chromiumembedded/cef/wiki/GeneralUsage
-
-* Master Build Quick-Start - https://bitbucket.org/chromiumembedded/cef/wiki/MasterBuildQuickStart
-
-* Branches and Building - https://bitbucket.org/chromiumembedded/cef/wiki/BranchesAndBuilding
-
-* Announcements - https://groups.google.com/forum/#!forum/cef-announceThe Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications.
-
-
-
-# Quick Links
-
-
-
-* Project Page - https://bitbucket.org/chromiumembedded/cef
-
-* Tutorial - https://bitbucket.org/chromiumembedded/cef/wiki/Tutorial
-
-* General Usage - https://bitbucket.org/chromiumembedded/cef/wiki/GeneralUsage
-
-* Master Build Quick-Start - https://bitbucket.org/chromiumembedded/cef/wiki/MasterBuildQuickStart
-
-* Branches and Building - https://bitbucket.org/chromiumembedded/cef/wiki/BranchesAndBuilding
-
-* Announcements - https://groups.google.com/forum/#!forum/cef-announce
