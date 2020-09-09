@@ -19,3 +19,8 @@ is the following workflow implemented:
 - Validation and Indexing (Management & Analyzing)
 - GeoJSON RESTful Data Service & Map viewing (Presentation) .
 
+<iframe width="560" height="315"
+src="https://www.fmatz.com/RoOGJ/RoOGJ-Gilmoure_player.html" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
