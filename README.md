@@ -24,7 +24,7 @@ The workflow is implemented with simple Python scripting as batch processing.
 - Oracle Autonomous Transaction Database (also Always Free)
 - Python 3.79 (not 3.8)
 - Oracle Cx_Oracle
-- Chromium Embedded Framework - CEF3 for Python 3.7
+- Chromium Embedded Framework for Python3 cefpython3
 
 # Installation
 
@@ -59,7 +59,14 @@ This
    >>> ^Z       #`exit with <CTRL><Z>`
    dos>
    ```
+   
+## Install cefpython3
 
+   ```dos
+   dos> python37 -m pip install cefpython3
+   
+   ```
+   
 # Quick Starts
 
 # Presentation - Video
