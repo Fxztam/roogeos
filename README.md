@@ -36,7 +36,7 @@ This
 ## Install Python 3.7
 
 1. Download [Python 3.79, the latest security fix - Release Date: Aug. 17, 2020](https://www.python.org/downloads/release/python-379/) 
-1. Install it to C:\Python37
+1. Install it in C:\Python37
 2. Copy and rename the .\bin\python.exe to python37.exe
 3. In the Windows System Environement `Set PATH=C:\Python37\bin;%PATH%`
 4. Test the Python37 call:
