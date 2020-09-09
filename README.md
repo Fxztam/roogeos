@@ -1,5 +1,7 @@
 RoOgeoS - Ring of Oracle GeoJSON Service.
 
+# Introduction
+
 The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with standardized services. 
 The GeoJSON data format for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
 
