@@ -20,6 +20,7 @@ The workflow is implemeted with simple Python scripting as batch processing.
 
 # Preferences
 
+- Windows 10
 - Oracle Autonomous Transaction Database (also Always Free)
 - Python 3.79 (not 3.8)
 - Oracle Cx_Oracle
@@ -28,15 +29,25 @@ The workflow is implemeted with simple Python scripting as batch processing.
 # Installation
 
 This 
-## Python 3.7
+## Configure Client Side for Oracle Autonomous Transaction Database
+
+## Install Python 3.7
 
 1. Download [Python 3.79, the latest security fix - Release Date: Aug. 17, 2020](https://www.python.org/downloads/release/python-379/) 
 1. Install it to C:\Python37
 2. Copy and rename the .\bin\python.exe to python37.exe
 3. Set PATH=C:\Python37\bin;%PATH% in Windows System Environement
 4. Test the Python37 call:
-5. ```dos
-   dos> 
+   ```dos
+   dos> python37
+    Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.
+   >>>
+   ```
+
+## Install Oracle Cx_Oracle
+
+1. 
 
 
 
