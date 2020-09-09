@@ -39,8 +39,8 @@ This
 3. Set PATH=C:\Python37\bin;%PATH% in Windows System Environement
 4. Test the Python37 call:
    ```dos
-   dos> **python37**
-    **Python 3.7.9** (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
+   dos> python37
+    Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
    >>>
    ```
@@ -49,7 +49,7 @@ This
 
 1. [Pip installing from Python37](https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html)
    ```dos
-   dos> **python37** -m pip install cx_Oracle
+   dos> python37 -m pip install cx_Oracle
    
    dos> python37
    ..
