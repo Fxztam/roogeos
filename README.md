@@ -21,10 +21,11 @@ is the following workflow with simple Python scripting as batch processing imple
 
 I developed and checked the whole process on my _Always Free Oracle Autonomous Transaction Processing (ATP) Cloud Database_ in Frankfurt.
 
-<img src="http://www.fmatz.com/Ring-Schema.png">
-
 ### Thank you Oracle for providing these awesome technologies - it gave me a lot of pleasure!
 
+# Overview
+
+<img src="http://www.fmatz.com/Ring-Schema.png">
 
 # Preferences
 
