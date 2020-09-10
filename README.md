@@ -11,7 +11,7 @@ here the efficiency of Oracle Spatial should also be proven with the possibility
 
 True to the definition of Geographical Information Systems (GIS)::
 
-_Input - Management - Analysis - Presentation  (I M A P principle)_
+> _Input - Management - Analysis - Presentation  (I M A P principle)_
 
 is the following workflow with simple Python scripting as batch processing implemented:
 
