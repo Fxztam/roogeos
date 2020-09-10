@@ -19,7 +19,7 @@ is the following workflow with simple Python scripting as batch processing imple
 1. Validation and Indexing (Management / Analyzing)
 1. GeoJSON RESTful Data Service & Map viewing (Viewing) .
 
-I developed and checked the whole process on my Always Free Oracle Autonomous Transaction Processing (ATP) Cloud Database in Frankfurt.
+I developed and checked the whole process on my _Always Free Oracle Autonomous Transaction Processing (ATP) Cloud Database_ in Frankfurt.
 
 #### Thank you Oracle for providing these awesome technologies - it gave me a lot of pleasure!
 
