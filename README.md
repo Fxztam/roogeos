@@ -133,7 +133,9 @@ if __name__ == '__main__':
 ```
 <img src="http://www.fmatz.com/Cx_OOra-CEF-OK.png">
 
-# Quick Starts
+Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
+
+# Quick Start Demos
 
 # Presentation - Video
 
