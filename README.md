@@ -72,7 +72,6 @@ I developed and checked the whole process on my _Always Free Oracle Autonomous T
 
    ```dos
    dos> python37 -m pip install cefpython3
-   
    ```
 ## Test the Components
 
