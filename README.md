@@ -6,18 +6,23 @@ The cooperation of modern, heterogeneous software systems can be achieved by int
 The GeoJSON data format for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
 
 The following is a demonstration of the interoperability by low code and transparency in the data process, spatial data quality assurance, and service delivery.  
+Every data processing begins with validation that means the quality assurance of the data, 
+here the efficiency of Oracle Spatial should also be proven with the possibility of automatic data correction.
 
 True to the definition of Geographical Information Systems (GIS)::
 
  	Input - Management - Analysis - Presentation  : The I M A P principle
 
-is the following workflow implemented:
+is the following workflow with simple Python scripting as batch processing implemented:
 
 1. GeoJSON File - Storage in the Feature Table (Input)
 1. Validation and Indexing (Management / Analyzing)
 1. GeoJSON RESTful Data Service & Map viewing (Viewing) .
 
-The workflow is implemented with simple Python scripting as batch processing.
+I developed and checked the whole process on my Always Free Oracle Autonomous Transaction Processing (ATP) database in Frankfurt.
+
+==Thank you Oracle for providing these awesome technologies;
+it gave me a lot of pleasure.==
 
 
 # Preferences
