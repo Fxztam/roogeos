@@ -23,7 +23,7 @@ I developed and checked the whole process on my _Always Free Oracle Autonomous T
 
 <img src="http://www.fmatz.com/Ring-Schema.png">
 
-#### Thank you Oracle for providing these awesome technologies - it gave me a lot of pleasure!
+### Thank you Oracle for providing these awesome technologies - it gave me a lot of pleasure!
 
 
 # Preferences
