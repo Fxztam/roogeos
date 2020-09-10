@@ -37,7 +37,6 @@ I developed and checked the whole process on my _Always Free Oracle Autonomous T
 
 # Installation
 
-This 
 ## Configure Client Side for Oracle Autonomous Transaction Database
 
 ## Install Python 3.7
@@ -132,6 +131,8 @@ if __name__ == '__main__':
     chk_oracef3()
 
 ```
+<img src="http://www.fmatz.com/Cx_OOra-CEF-OK.png">
+
 # Quick Starts
 
 # Presentation - Video
