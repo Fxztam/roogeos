@@ -11,13 +11,13 @@ here the efficiency of Oracle Spatial should also be proven with the possibility
 
 True to the definition of Geographical Information Systems (GIS)::
 
-#### Input - Management - Analysis - Presentation  (I M A P principle)
+_Input - Management - Analysis - Presentation  (I M A P principle)_
 
 is the following workflow with simple Python scripting as batch processing implemented:
 
-1. GeoJSON File - Storage in the Feature Table (Input)
-1. Validation and Indexing (Management / Analyzing)
-1. GeoJSON RESTful Data Service & Map viewing (Viewing) .
+1. GeoJSON File - Storage in the Feature Table (_Input_)
+1. Validation and Indexing (_Management / Analyzing_)
+1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) .
 
 I developed and checked the whole process on my _Always Free Oracle Autonomous Transaction Processing (ATP) Cloud Database_ in Frankfurt.
 
