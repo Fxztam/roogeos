@@ -6,7 +6,7 @@ The cooperation of modern, heterogeneous software systems can be achieved by int
 
 The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) ::
 
-> _Input - Management - Analysis - Presentation  (I M A P principle)_
+> _Input - Management - Analysis - Presentation  (I M A P principle(*))_
 
 
 There is the following workflow with simple Python scripting as batch processing implemented:
@@ -20,7 +20,7 @@ There are used here following **Oracle Database components**:
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
 - **Oracle RESTful Data Service (ORDS)** : Fast and standarized data service for CRUD applications on Oracle Databases
 - **Oracle JSON** : JSON data storage and functions in Oracle DB
-- **Oracle Spatial** : Spatial Service for CRUD storage and a lot of _IMAP Services_
+- **Oracle Spatial** : Spatial Service for CRUD storage and a lot of _IMAP(*) Services_
 
 I developed and checked the whole process on my _Always Free **Oracle Autonomous Transaction Processing** (ATP) **Cloud** Database_ in Frankfurt.
 
