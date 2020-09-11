@@ -1,6 +1,7 @@
 #--------------------------------------------------
 # --- Test the cx_Oracle connection and cefpython 3
 #     Friedhold Matz 2020-sept
+# Usage: Set your <username>/<password>@<db-SID>
 # -------------------------------------------------
 import base64
 import cx_Oracle
