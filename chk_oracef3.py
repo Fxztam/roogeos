@@ -9,7 +9,7 @@ from cefpython3 import cefpython as cef
 
 def chk_ora_connect():
     try:
-        conn = cx_Oracle.connect('<uname>/<password>@<db-SID',
+        conn = cx_Oracle.connect('<uname>/<password>@<db-SID>',
                                  encoding="UTF-8", nencoding="UTF-8")
         cursor = conn.cursor()
         for row in cursor.execute("select to_char(sysdate, 'YYYY-MM-DD HH24:MI:SS') from dual"):
