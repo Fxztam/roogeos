@@ -1,43 +1,56 @@
-**RoOgeoS - _Ring of Oracle GeoJSON Service._**
+**RoOgeoS - _Ring of Oracle GeoJSON _** Service
 
 # Introduction
 
-The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with standardized services. 
-The GeoJSON data format for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
+The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with standardized services. The GeoJSON data format and the RESTful data service for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
 
-The following is a demonstration of the interoperability by low code and transparency in the data process, spatial data quality assurance, and service delivery.  
-Every data processing begins with validation that means the quality assurance of the data, 
-here the efficiency of Oracle Spatial should also be proven with the possibility of automatic data correction.
-
-True to the definition of Geographical Information Systems (GIS)::
+The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) ::
 
 > _Input - Management - Analysis - Presentation  (I M A P principle)_
 
-is the following workflow with simple Python scripting as batch processing implemented:
+
+There is the following workflow with simple Python scripting as batch processing implemented:
 
 1. GeoJSON File - Storage in the Feature Table (_Input_)
 1. Validation and Indexing (_Management / Analyzing_)
 1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) .
+1. 
 
-I developed and checked the whole process on my _Always Free Oracle Autonomous Transaction Processing (ATP) Cloud Database_ in Frankfurt.
+There are used here following **Oracle Database components**:
 
-### Thank you Oracle for providing these awesome technologies - it gave me a lot of pleasure!
+- **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
+- **Oracle RESTful Data Service (ORDS)** : Standarized and fast data service for CRUD applications on Oracle Databases
+- **Oracle JSON** : JSON data storage and functions in Oracle DB
+- **Oracle Spatial** : 
+
+I developed and checked the whole process on my _Always Free **Oracle Autonomous Transaction Processing** (ATP) **Cloud** Database_ in Frankfurt.
+
+***Thank you Oracle for providing these awesome technologies on my Always  Free Oracle ATP -*** 
+
+***it give me a lot of pleasure !***
 
 # Overview
 
-<img src="http://www.fmatz.com/Ring-Schema.png">
+<img src="http://www.fmatz.com/Ring-Schema3.png">
 
 # Preferences
 
 - Windows 10
 - Oracle Autonomous Transaction Processing Cloud Database (also Always Free)
-- Python 3.79 (not 3.8)
+- Oracle Instant Client 19.x
+- Python 3.79  (not 3.8 !)
 - Oracle Cx_Oracle
 - Chromium Embedded Framework for Python3 cefpython3
 
 # Installation
 
-## Configure Client Side for Oracle Autonomous Transaction Database
+## Install Oracle Instant Client
+
+1. Download the Oracle Instant Client
+2. Unzip it 
+3. Set the System Environment PATH to the Oracle Instant Client directory .\bin
+
+## Client Side Configuration
 
 ## Install Python 3.7
 
@@ -68,7 +81,7 @@ I developed and checked the whole process on my _Always Free Oracle Autonomous T
    dos>
    ```
    
-## Install cefpython3
+## Install CefPython3
 
    ```dos
    dos> python37 -m pip install cefpython3
@@ -86,7 +99,7 @@ from cefpython3 import cefpython as cef
 
 def chk_ora_connect():
     try:
-        conn = cx_Oracle.connect('<uname>/<password>@<db-SID',
+        conn = cx_Oracle.connect('<uname>/<password>@<db-SID>',
                                  encoding="UTF-8", nencoding="UTF-8")
         cursor = conn.cursor()
         for row in cursor.execute("select to_char(sysdate, 'YYYY-MM-DD HH24:MI:SS') from dual"):
@@ -130,21 +143,31 @@ if __name__ == '__main__':
     chk_oracef3()
 
 ```
+- Copy the Python test file from [github](https://raw.githubusercontent.com/Fxztam/roogeos/master/chk_oracef3.py?token=ABMJ7IAF42ZMVGZUZBF2VHC7LNDIK)
+
+- Set your <uname>/<password>@<db-SID> in ***chk_oracef3.py***
+
+  ```
+  cx_Oracle.connect('<uname>/<password>@<db-SID>', ..
+  ```
+
+- Execute it from file's directory:
+
+```
+dos> python37 chk_oracef3.py
+```
+
 <img src="http://www.fmatz.com/Cx_OOra-CEF-OK.png">
 
 Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 # Quick Start Demos
 
-# Presentation - Video
-
 # Modul Description
 
 # Known Issues
 
-# Development Agenda
-
-on) .
+# Status
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/MUQfKFzIOeU"
@@ -152,3 +175,4 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/167121552" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
