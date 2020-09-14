@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
 - Copy the Python test file from [github](https://raw.githubusercontent.com/Fxztam/roogeos/master/chk_oracef3.py?token=ABMJ7IAF42ZMVGZUZBF2VHC7LNDIK)
 
-- Set your <uname>/<password>@<db-SID> in ***chk_oracef3.py***
+- Set your USERNAME/PASSWORD@DB-SID in ***chk_oracef3.py***
 
   ```
   cx_Oracle.connect('<uname>/<password>@<db-SID>', ..
