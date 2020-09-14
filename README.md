@@ -62,7 +62,7 @@ The Python 3 Main procedure of the batch process:
 1. Download the Wallet.zip from your Oracle ATP DB
 2. Copy it to e.g. C:\etc  
 3. Unzip it there
-4. Set in sqlnet.ora the C:\etc directory:![img](file:///C:/Users/Fried/AppData/Local/Temp/SNAGHTML288366.PNG)
+4. Set in sqlnet.ora the C:\etc directory:![img](https://github.com/Fxztam/roogeos/blob/master/images/sqlnet.png)
 5. In System Environement : `Set TNS_NAMES=C:\etc`
 
 ## Install Python 3.7
@@ -186,7 +186,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 ## Get your GeoJSON data from layer editing
 
-[map layer editing directly](https://geojson.io/)
+[Map layer direct editing](https://geojson.io/)
 
 ![image-20200913220828448](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913220828448.png)
 
@@ -223,7 +223,6 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 ## Start OraGeoJSON
 
 ### Download Ring-of-Oracle-GeoJSON    
-
 
 Download from : [Ring-of-Oracle-GeoJSON repository](https://github.com/Fxztam/roogeos) and unzip it.
 
