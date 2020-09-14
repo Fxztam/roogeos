@@ -214,7 +214,31 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
    
 
-9. Congratulations !  You have created your GeoJSON file for **_`Ring of Oracle GeoJSON Service`_** now !
+9. Congratulations !  You have created your _own GeoJSON file_ for your **_`Ring of Oracle GeoJSON Service`_** now !
+
+## Start OraGeoJSON
+
+### Download Ring-of-Oracle-GeoJSON    
+
+
+Download from ![Ring-of-Oracle-GeoJSON] (https://github.com/Fxztam/roogeos) and unzip it.
+
+Following GeoJSON test data a included:
+
+- _test-data.geojson_ - simple three geometries
+- _landkreise.geojson_ - Regions of Germany
+- _waterlowerlusatia.geoson_ - water layer of Lower Lusatia
+
+USAGE: 
+```cmd
+python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<db-SID> 
+```
+   
+```cmd
+dos> cd .\roogeos-master
+
+dos> Python37 orageojson.py  test-data.geojson -t testdata_gj <uname>/<passwd>@<db-SID>
+```
 
 # Modul Description
 
