@@ -26,9 +26,9 @@ with the following **Oracle Database components ** are used for this:
 
 I developed and checked the whole process on my _Always Free **Oracle Autonomous Transaction Processing** (ATP) **Cloud** Database_ in Frankfurt.
 
-***Thank you Oracle for providing these awesome technologies on my Always  Free Oracle ATP -*** 
+***Thank you Oracle for providing these awesome technologies on my Always  Free Oracle ATP :*** 
 
-***it give me a lot of pleasure !***
+***It gives me a lot of pleasure !***
 
 # Overview
 
