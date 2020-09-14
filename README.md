@@ -22,7 +22,7 @@ with following _Oracle Database components_ are used for this:
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
 - **Oracle RESTful Data Service (ORDS)** : Fast data service for CRUD applications on Oracle Databases
 - **Oracle JSON** : JSON data storage and functions in Oracle DB
-- **Oracle Spatial** : Spatial Service for CRUD storage and a lot of *IMAP(\*) services* in the Oracle DB 
+- **Oracle Spatial** : Spatial Service for CRUD geo data storage and a lot of *IMAP(\*) services* in the Oracle DB 
 
 I developed and checked the whole process on my _Always Free **Oracle Autonomous Transaction Processing** (ATP) **Cloud** Database_ in Frankfurt.
 
