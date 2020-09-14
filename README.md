@@ -235,7 +235,7 @@ python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<
 ```
    
 ```cmd
-dos> cd .\roogeos-master
+dos> cd .\roogeos-master\RingOfOraGeo
 
 dos> Python37 orageojson.py  test-data.geojson -t testdata_gj <uname>/<passwd>@<db-SID>
 ```
