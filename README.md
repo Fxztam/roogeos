@@ -38,7 +38,7 @@ This workflow is implemented as a batch process using simple Python 3 scripting:
 
 The Python 3 Main procedure of the batch process:
 
-[main-batch](https://github.com/Fxztam/roogeos/blob/master/images/main-batch.png)
+![main-batch](https://github.com/Fxztam/roogeos/blob/master/images/main-batch.png)
 
 # Preferences
 
