@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
 - Copy the Python test file from [github](https://raw.githubusercontent.com/Fxztam/roogeos/master/chk_oracef3.py?token=ABMJ7IAF42ZMVGZUZBF2VHC7LNDIK)
 
-- Set your USERNAME/PASSWORD@DB-SID in ***chk_oracef3.py***
+- Set your `<username>/<password>@<db-SID>` in ***chk_oracef3.py***
 
   ```
   cx_Oracle.connect('<uname>/<password>@<db-SID>', ..
@@ -184,7 +184,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 [map layer editing directly](https://geojson.io/)
 
-![image-20200913220828448](https://github.com/Fxztam/roogeos/blob/master/image-20200913220828448.png)
+![image-20200913220828448](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913220828448.png)
 
 ## Get your GeoJSON data from OSM shape files
 
@@ -198,19 +198,19 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 5. Navigate in Layers to your layer activation e.g. `osm buildings`: 
 
-   ![image-20200913233741535](https://github.com/Fxztam/roogeos/blob/master/image-20200913233741535.png)
+   ![image-20200913233741535](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913233741535.png)
 
 6. Select Features on your layer activation : 
 
-   ![image-20200913234406127](https://github.com/Fxztam/roogeos/blob/master/image-20200913234406127.png)
+   ![image-20200913234406127](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913234406127.png)
 
 7. On the new  `..selected x` you can <Right Mouse Click> , <Export> , <Save Feature As...> 
 
-   ![image-20200913235527807](https://github.com/Fxztam/roogeos/blob/master/image-20200913235527807.png)
+   ![image-20200913235527807](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913235527807.png)
 
 8. Fill out for the GeoJSON export:
 
-   ![image-20200913235504881](https://github.com/Fxztam/roogeos/blob/master/image-20200913235504881.png)
+   ![image-20200913235504881](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913235504881.png)
 
    
 
