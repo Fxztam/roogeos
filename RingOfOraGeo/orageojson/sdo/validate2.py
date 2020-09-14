@@ -3,7 +3,8 @@ from orageojson.log.flogger import loginfo, logexcep, logcrit
 def validate_SDO2 (p_conn, p_cursor, p_ftable):
     #loginfo('--- BO - validate_SDO2 ---')
 
-    cntErrors = None
+    cnterrors_ = 0
+    counts_ = 0
 
     # -- drop & create feature error table
     err_cursor = p_conn.cursor()
@@ -81,7 +82,7 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
             logexcep('$$$ Error validate: {}'.format(e))
             raise
 
-        #loginfo("--- Get Count1 ---")
+        loginfo("--- Get Count1 ---")
         # if no valid SDO data then sense .
         try:
             _cursor = p_conn.cursor()
@@ -89,31 +90,30 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
             _sql = f"SELECT count(*) " \
                    f"   FROM  {row[0]} s"
             _cursor.execute(_sql)
-            count = _cursor.fetchone()[0]
+            counts_ = _cursor.fetchone()[0]
 
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
 
-        if (count == 0):
+        if (counts_ == 0):
             logcrit('$$$ Error NO VALIDATED SDO data : Sense . $$$')
             raise
 
-        cnterrors = 5
-        #loginfo("--- Get Count2 ---")
+        loginfo("--- Get Count2 ---")
         # get one
         try:
             _sql = f"SELECT count(*) " \
                    f"   FROM  {row[0]}_errors"
             _cursor.execute(_sql)
-            cnterrors = _cursor.fetchone()[0]
+            cnterrors_ = _cursor.fetchone()[0]
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
 
         #loginfo("--- EO - counts. ---")
 
-    loginfo('--- EO - validate_SDO . Number of Records: {a} / Errors: {b}'.format(a=count, b=cnterrors) )
+    loginfo('--- EO - validate_SDO . Number of Records: {a} / Errors: {b}'.format(a=counts_, b=cnterrors_) )
 
     return
 # ------------------------------------
