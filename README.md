@@ -221,7 +221,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 ### Download Ring-of-Oracle-GeoJSON    
 
 
-Download from ![Ring-of-Oracle-GeoJSON] (https://github.com/Fxztam/roogeos) and unzip it.
+Download from : [Ring-of-Oracle-GeoJSON repository](https://github.com/Fxztam/roogeos) and unzip it.
 
 Following GeoJSON test data a included:
 
