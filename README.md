@@ -184,7 +184,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 [map layer editing directly](https://geojson.io/)
 
-![image-20200913220828448](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913220828448.png)
+![image-20200913220828448](https://github.com/Fxztam/roogeos/image-20200913220828448.png)
 
 ## Get your GeoJSON data from OSM shape files
 
