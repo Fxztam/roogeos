@@ -17,7 +17,7 @@ So there is the following workflow with simple Python scripting as batch process
 1. Validation and Indexing (_Management / Analyzing_)
 1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) 
 
-with following **Oracle Database components ** are used for this: 
+with following _Oracle Database components_ are used for this: 
 
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
 - **Oracle RESTful Data Service (ORDS)** : Fast data service for CRUD applications on Oracle Databases
