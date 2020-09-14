@@ -32,7 +32,7 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
 
 # Overview
 
-This workflow is with simple Python 3 scripting as batch processing implemented:
+This workflow is implemented as a batch process using simple Python 3 scripting:
 
 <img src="http://www.fmatz.com/Ring-Schema3.png">
 
