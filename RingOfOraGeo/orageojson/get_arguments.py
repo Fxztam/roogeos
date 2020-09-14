@@ -30,5 +30,5 @@ def get_arguments():
         logexcep("$$$ ERROR in connect string `<un>/<pw>@<Oracle-SID>`! Found: " + connect_)
         raise
 
-    return file_, table_, connect_, un_, sid_
+    return file_, table_.upper(), connect_, un_, sid_
 
