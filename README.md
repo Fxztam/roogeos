@@ -17,7 +17,7 @@ So there is this workflow implemented:
 1. Validation and Indexing (_Management / Analyzing_)
 1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) 
 
-with following **Oracle Database components ** are used:
+with following **Oracle Database** components are used:
 
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
 - **Oracle RESTful Data Service (ORDS)** : Fast data service for CRUD applications on Oracle Databases
@@ -229,7 +229,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 Download from : [Ring-of-Oracle-GeoJSON repository](https://github.com/Fxztam/roogeos) and unzip it.
 
-Following GeoJSON test data a included:
+Following GeoJSON test data are included:
 
 - _test-data.geojson_ - simple three geometries
 - _landkreise.geojson_ - Regions of Germany
@@ -260,6 +260,7 @@ Yes, it works with _UMLAUTE_ !
 
 # Known Issues
 
-- Large datasets ( 500.000 )
-- GeoJSON property names not table column syntax conform e.g. `water-area`
+- Large datasets ( tested with 500.000 : too long running..)
+- GeoJSON property names not table column syntax conform 
+  e.g. `water-area` that means Oracle Identifier!
 
