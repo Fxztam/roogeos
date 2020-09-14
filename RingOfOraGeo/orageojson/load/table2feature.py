@@ -1,3 +1,7 @@
+#-------------------------------------------------
+#  Loading GeoJSON CLOB to SDO Feature Table
+#  Friedhold Matz - 2020-aug
+#-------------------------------------------------
 from orageojson.log.flogger import flog
 from orageojson.log.flogger import loginfo, logexcep
 

@@ -5,6 +5,7 @@
 # Analyze:      Validate & rectify the SDO's
 # Presentation: Get GeoJSON data from Oracle RESTful Data Service
 #               Create the GeoJSON Vector layer in LeafLet
+#               No external dependencies !
 #
 # Usage > python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<db-SID>
 #

@@ -1,3 +1,8 @@
+#-------------------------------------------------
+#  LeafLet 0.6 Mapping : CEFPYTHON3
+#  Friedhold Matz - 2020-aug
+#-------------------------------------------------
+
 from string import Template
 
 from cefpython3 import cefpython as cef
@@ -21,7 +26,6 @@ def get_script4end(p_url, p_props):
                  '<div id="map"></div> \n' \
                  '<!-- Friedhold Matz - 2020-aug --> \n' \
                  '<script> \n' \
-                 '    //var ORDS_uri = "https://H3IMPBPRKMTZGW7-DB202006151346.adb.eu-frankfurt-1.oraclecloudapps.com/ords/northwind/test/media" \n' \
                  '    var ORDS_uri = \'${l_uri}\' \n' \
                  '    async function getORDSdata() { \n' \
                  '       // --- get ORDS JSON data from my AlwaysFree OracleCloud ATP --- \n' \

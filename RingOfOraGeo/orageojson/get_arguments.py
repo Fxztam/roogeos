@@ -1,3 +1,8 @@
+#----------------------------------------------------
+#  Get arguments: > file -t table_name connect_string
+#  Friedhold Matz - 2020-aug
+#----------------------------------------------------
+
 from orageojson.log.flogger import loginfo, logexcep
 import argparse
 

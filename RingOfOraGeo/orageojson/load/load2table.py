@@ -1,4 +1,7 @@
-
+#-------------------------------------------------
+#  Loading GeoJSON file to CLOB
+#  Friedhold Matz - 2020-aug
+#-------------------------------------------------
 from orageojson.log.flogger import loginfo, logexcep
 
 def load2table(p_cursor, p_geojson):

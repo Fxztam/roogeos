@@ -1,3 +1,8 @@
+#-------------------------------------------------
+#  Create SDO Index
+#  Friedhold Matz - 2020-aug
+#-------------------------------------------------
+
 from orageojson.log.flogger import loginfo, logexcep, logcrit
 
 def validate_SDO2 (p_conn, p_cursor, p_ftable):

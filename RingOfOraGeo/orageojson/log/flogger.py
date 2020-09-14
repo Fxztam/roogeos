@@ -79,14 +79,3 @@ def logexcep(p_msg):
 if __name__ == '__init__':
     print("§§§§§§§§§")
     m_loginit = None
-
-if __name__ == '__main__':
-
-    print('--- LOGINFO FROM CONSOLE ---')
-    loginfo("--- LOGINFO FROM LOGGER ---")
-    print("----------------------------")
-
-    flog("TESTER", "tester-X")
-    flog("Tester")
-    floga("HIGH", 'NEWS')
-    floga("HIGH", 'NEWS')

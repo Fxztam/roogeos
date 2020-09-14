@@ -1,3 +1,8 @@
+#-------------------------------------------------
+#  Set SDO Meta Data
+#  Friedhold Matz - 2020-aug
+#-------------------------------------------------
+
 from orageojson.log.flogger import loginfo, logexcep
 
 def setmetadata4SDO(p_conn, p_cursor, p_table):
