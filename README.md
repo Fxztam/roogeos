@@ -1,4 +1,4 @@
-RoOgeoS - _** Ring of Oracle GeoJSON **_ Service
+RoOgeoS - _**Ring of Oracle GeoJSON**_ Service
 
 # Introduction
 
