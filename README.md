@@ -240,20 +240,10 @@ dos> cd .\roogeos-master\RingOfOraGeo
 dos> Python37 orageojson.py  test-data.geojson -t testdata_gj <uname>/<passwd>@<db-SID>
 ```
 
-# Modul Description
-
-- c
-- c
-- c
-- c
-- c
-- c
-- c
-- c
-- 
+Yes, it works with _UMLAUTE_ !
 
 # Known Issues
 
-- Large datasets
-- GeoJSON property names not table column syntax conform
+- Large datasets ( 500.000 )
+- GeoJSON property names not table column syntax conform e.g. `water-area`
 
