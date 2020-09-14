@@ -214,7 +214,7 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
    
 
-9. Congratulations !  You have created your GeoJSON file for **_`Ring of Oracle GeoJSON`_** now !
+9. Congratulations !  You have created your GeoJSON file for **_`Ring of Oracle GeoJSON Service`_** now !
 
 # Modul Description
 
