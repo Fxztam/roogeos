@@ -39,7 +39,7 @@ This workflow is implemented as a batch process using simple Python 3 scripting:
 - The short [presentation 1](https://www.fmatz.com/RoOGJ-x/RoOGJ-x.html)
 - A bit longer [presentation_2](https://www.fmatz.com/RoOGJ/RoOGJ-Gilmoure.html)
 
-The Python 3 Main procedure of the batch process:
+The Python 3 main procedure of the batch process _orageojson.py_ :
 
 ![main-batch](https://github.com/Fxztam/roogeos/blob/master/images/main-batch.png)
 
