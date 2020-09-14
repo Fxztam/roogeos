@@ -6,7 +6,7 @@ The cooperation of modern, heterogeneous software systems can be achieved by int
 
 The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) by modern Oracle Database Components ::
 
-> _Input - Management - Analysis - Presentation  (I M A P principle*(\*)*)_
+> _Input - Management - Analysis - Presentation  (I M A P principle(\*))_
 
 Every data processing begins with validation that means the quality assurance of the data, 
 here the efficiency of **Oracle Spatial** should also be proven with the possibility of automatic data correction.
