@@ -229,7 +229,9 @@ Following GeoJSON test data a included:
 - _landkreise.geojson_ - Regions of Germany
 - _waterlowerlusatia.geoson_ - water layer of Lower Lusatia
 
-USAGE: 
+### Start Ring-of-Oracle-GeoJSON  
+
+USAGE:
 ```cmd
 python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<db-SID> 
 ```
@@ -237,10 +239,18 @@ python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<
 ```cmd
 dos> cd .\roogeos-master\RingOfOraGeo
 
-dos> Python37 orageojson.py  test-data.geojson -t testdata_gj <uname>/<passwd>@<db-SID>
+dos> Python37 orageojson.py  test-data.geojson -t testdata <uname>/<passwd>@<db-SID>
 ```
 
 Yes, it works with _UMLAUTE_ !
+
+### Map Results
+
+![map-results](https://github.com/Fxztam/roogeos/blob/master/images/map-results.png)
+
+### Logging
+
+![final-logs](https://github.com/Fxztam/roogeos/blob/master/images/final-logs.png)
 
 # Known Issues
 
