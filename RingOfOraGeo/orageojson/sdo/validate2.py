@@ -1,7 +1,7 @@
 from orageojson.log.flogger import loginfo, logexcep, logcrit
 
 def validate_SDO2 (p_conn, p_cursor, p_ftable):
-    #loginfo('--- BO - validate_SDO2 ---')
+    loginfo('--- BO - validate_SDO2 ---')
 
     cnterrors_ = 0
     counts_ = 0
@@ -91,7 +91,7 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
                    f"   FROM  {row[0]}"
             _cursor.execute(_sql)
             counts_ = _cursor.fetchone()[0]
-            loginfo("--- EO Get Count1 ---"+counts_)
+            loginfo("--- EO Get Count1 ---")
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
@@ -107,14 +107,14 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
                    f"   FROM  {row[0]}_errors"
             _cursor.execute(_sql)
             cnterrors_ = _cursor.fetchone()[0]
-            loginfo("--- EO Get Count2 ---"+cnterrors_)
+            loginfo("--- EO Get Count2 ---")
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
 
         #loginfo("--- EO - counts. ---")
 
-    loginfo('--- EO - validate_SDO . Number of Records: {a} / Errors: {b}'.format(a=counts_, b=cnterrors_) )
+    loginfo('--- EO - validate_SDO2 . Number of Records: {a} / Errors: {b}'.format(a=counts_, b=cnterrors_) )
 
     return
 # ------------------------------------
