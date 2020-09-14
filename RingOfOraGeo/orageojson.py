@@ -5,9 +5,10 @@
 # Analyze:      Validate & rectify the SDO's
 # Presentation: Get GeoJSON data from Oracle RESTful Data Service
 #               Create the GeoJSON Vector layer in LeafLet
+#
 # Usage > python37 orageojson.py <file_name.geojson> -t <TableName> <username>/password>@<db-SID>
 #
-# Friedhold Matz - 2020-aug
+# Friedhold Matz - 2020-sept : v0.09.01.200914
 #
 # PYTHONIOENCODING=UTF-8
 #------------------------------------------------------------------------------------------------
@@ -22,15 +23,12 @@ from orageojson.sdo.validate2 import validate_SDO2
 from orageojson.view.map_intern_leaflet2 import map_intern_leaflet
 from orageojson.log.flogger import flog, init_logging, loginfo, logexcep
 
-def print_hi(name):
-    loginfo(f"§§§  Hey Greetings from {name} here to Frankfurt Clouds (555 km) ! §§§")
 #.............................
 
 if __name__ == '__main__':
 
     try:
         init_logging('--- BO - File logging. ---')
-        print_hi('Fried Spremberger')
         file_, table_, connect_, un_, sid_ = get_arguments()
         conn_, cursor_, schema_ = dbopen(connect_)
         load2table(cursor_, file_)
