@@ -2,25 +2,27 @@ RoOgeoS - _** Ring of Oracle GeoJSON **_ Service
 
 # Introduction
 
-The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with standardized services. The GeoJSON data format and the RESTful data service for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
+The cooperation of modern, heterogeneous software systems can be achieved by interoperability of transparent data formats with standardized services. The GeoJSON data format and RESTful data service for the exchange of geometry and attribute data has proven to be very assertive due to its transparency and efficiency. 
 
-The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) ::
+The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) by modern Oracle Database Components ::
 
-> _Input - Management - Analysis - Presentation  (I M A P principle(*))_
+> _Input - Management - Analysis - Presentation  (I M A P principle*(\*)*)_
 
+Every data processing begins with validation that means the quality assurance of the data, 
+here the efficiency of **Oracle Spatial** should also be proven with the possibility of automatic data correction.
 
-There is the following workflow with simple Python scripting as batch processing implemented:
+So there is the following workflow with simple Python scripting as batch processing implemented:
 
 1. GeoJSON File - Storage in the Feature Table (_Input_)
 1. Validation and Indexing (_Management / Analyzing_)
-1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) .
+1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) 
 
-There are used here following **Oracle Database components**:
+with the following **Oracle Database components ** are used for this:
 
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
+- **Oracle RESTful Data Service (ORDS)** : Fast data service for CRUD applications on Oracle Databases
 - **Oracle JSON** : JSON data storage and functions in Oracle DB
-- **Oracle RESTful Data Service (ORDS)** : Fast and standarized data service for CRUD applications on Oracle Databases
-- **Oracle Spatial** : Spatial Service for CRUD storage and a lot of _IMAP(*) Services_
+- **Oracle Spatial** : Spatial Service for CRUD storage and a lot of *IMAP(\*) services*
 
 I developed and checked the whole process on my _Always Free **Oracle Autonomous Transaction Processing** (ATP) **Cloud** Database_ in Frankfurt.
 
