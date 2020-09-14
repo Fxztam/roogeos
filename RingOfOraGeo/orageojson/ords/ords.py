@@ -8,6 +8,7 @@ from orageojson.ords.get_ords_base_url import get_ords_base_url
 def createords(p_conn, p_cursor, p_schema, p_table):
     #loginfo('--- BO - crgeojsonords. ---:' + p_table)
 
+    ords_url_ = None
     c_ords_module_name = 'geo_api'
 
     # create the GeoJSON Feature Collection View and the Oracle RESTful Data Service
