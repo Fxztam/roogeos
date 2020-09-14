@@ -88,10 +88,10 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
             _cursor = p_conn.cursor()
             # get one
             _sql = f"SELECT count(*) " \
-                   f"   FROM  {row[0]} s"
+                   f"   FROM  {row[0]}"
             _cursor.execute(_sql)
             counts_ = _cursor.fetchone()[0]
-
+            loginfo("--- EO Get Count1 ---"+counts_)
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
@@ -107,6 +107,7 @@ def validate_SDO2 (p_conn, p_cursor, p_ftable):
                    f"   FROM  {row[0]}_errors"
             _cursor.execute(_sql)
             cnterrors_ = _cursor.fetchone()[0]
+            loginfo("--- EO Get Count2 ---"+cnterrors_)
         except Exception as e:
             logexcep('$$$ Error validate: {}'.format(e))
             raise
