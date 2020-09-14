@@ -6,18 +6,18 @@ The cooperation of modern, heterogeneous software systems can be achieved by int
 
 The following is a demonstration of the interoperability by low code and transparency in the data process true to the definition of Geographical Information Systems (GIS) by modern Oracle Database Components ::
 
-> _Input - Management - Analysis - Presentation  (I M A P principle(\*))_
+> _Input - Management - Analysis - Presentation  (I M A P principle*(\*)*)_
 
 Every data processing begins with validation that means the quality assurance of the data, 
 here the efficiency of **Oracle Spatial** should also be proven with the possibility of automatic data correction.
 
-So there is this workflow with simple Python scripting as batch processing implemented:
+So there is this workflow implemented:
 
 1. GeoJSON File - Storage in the Feature Table (_Input_)
 1. Validation and Indexing (_Management / Analyzing_)
 1. GeoJSON RESTful Data Service & Map viewing (_Viewing_) 
 
-with following _Oracle Database components_ are used for this: 
+with following **Oracle Database components ** are used:
 
 - **Oracle cx_Oracle** : Python extension tool for accessing the Oracle Database
 - **Oracle RESTful Data Service (ORDS)** : Fast data service for CRUD applications on Oracle Databases
@@ -31,6 +31,8 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
 ***It gives me a lot of pleasure !***
 
 # Overview
+
+This workflow is with simple Python 3 scripting as batch processing implemented:
 
 <img src="http://www.fmatz.com/Ring-Schema3.png">
 
@@ -53,13 +55,24 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
 
 ## Client Side Configuration
 
+1. Download the Wallet.zip from your Oracle ATP DB
+2. Copy it to e.g. C:\etc  
+3. Unzip it there
+4. Set in sqlnet.ora the C:\etc directory:![img](file:///C:/Users/Fried/AppData/Local/Temp/SNAGHTML288366.PNG)
+5. In System Environement : `Set TNS_NAMES=C:\etc`
+
 ## Install Python 3.7
 
 1. Download [Python 3.79, the latest security fix - Release Date: Aug. 17, 2020](https://www.python.org/downloads/release/python-379/) 
-1. Install it in C:\Python37
-2. Copy and rename the .\bin\python.exe to python37.exe
-3. In the Windows System Environement `Set PATH=C:\Python37\bin;%PATH%`
-4. Test the Python37 call:
+
+2. Install it in C:\Python37
+
+3. Copy and rename the .\bin\python.exe to python37.exe
+
+4. In the Windows System Environement `Set PATH=C:\Python37\bin;%PATH%`
+
+5. Test the Python37 call:
+
    ```dos
    dos> python37
     Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
@@ -70,6 +83,7 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
 ## Install Oracle Cx_Oracle
 
 1. Cx_Oracle installing with pip from Python37 ([Pip installing from Python37](https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html))
+
    ```dos
    dos> python37 -m pip install cx_Oracle
    
@@ -81,12 +95,13 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
    >>> ^Z       #`exit with <CTRL><Z>`
    dos>
    ```
-   
+
 ## Install CefPython3
 
    ```dos
    dos> python37 -m pip install cefpython3
    ```
+
 ## Test the Components
 
 ```python
@@ -144,6 +159,7 @@ if __name__ == '__main__':
     chk_oracef3()
 
 ```
+
 - Copy the Python test file from [github](https://raw.githubusercontent.com/Fxztam/roogeos/master/chk_oracef3.py?token=ABMJ7IAF42ZMVGZUZBF2VHC7LNDIK)
 
 - Set your <uname>/<password>@<db-SID> in ***chk_oracef3.py***
@@ -164,16 +180,56 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
 # Quick Start Demos
 
+## Get your GeoJSON data from layer editing
+
+[map layer editing directly](https://geojson.io/)
+
+![image-20200913220828448](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913220828448.png)
+
+## Get your GeoJSON data from OSM shape files
+
+1. You can download Open Streetmap Data (OSM) from e.g. the [Geodatafabrik](https://download.geofabrik.de/) in Shape File format.
+
+2. Install [QGIS 3.14]( https://qgis.org/en/site/forusers/download.html)
+
+3. Open QGIS, <New Project> , <Add Layer> , <Add Vector Layer> => `Source Type` - `File`
+
+4. Select the  *<OSM.shp>*  file
+
+5. Navigate in Layers to your layer activation e.g. `osm buildings`: 
+
+   ![image-20200913233741535](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913233741535.png)
+
+6. Select Features on your layer activation : 
+
+   ![image-20200913234406127](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913234406127.png)
+
+7. On the new  `..selected x` you can <Right Mouse Click> , <Export> , <Save Feature As...> 
+
+   ![image-20200913235527807](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913235527807.png)
+
+8. Fill out for the GeoJSON export:
+
+   ![image-20200913235504881](C:\Users\Fried\AppData\Roaming\Typora\typora-user-images\image-20200913235504881.png)
+
+   
+
+9. Congratulations !  You have created your GeoJSON file for `Ring of Oracle GeoJSON` now !
+
 # Modul Description
+
+- c
+- c
+- c
+- c
+- c
+- c
+- c
+- c
+- 
 
 # Known Issues
 
-# Status
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/167121552" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+- Large datasets
+- GeoJSON property names not table column syntax conform
 
