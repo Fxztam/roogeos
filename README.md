@@ -37,7 +37,6 @@ This workflow is implemented as a batch process using simple Python 3 scripting:
 <img src="http://www.fmatz.com/Ring-Schema3.png">
 
 - The short [presentation 1](https://www.fmatz.com/RoOGJ-x/RoOGJ-x.html)
-- A bit longer [presentation_2](https://www.fmatz.com/RoOGJ/RoOGJ-Gilmoure.html)
 
 The Python 3 main procedure of the batch process _orageojson.py_ :
 
