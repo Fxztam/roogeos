@@ -32,11 +32,13 @@ I developed and checked the whole process on my _Always Free **Oracle Autonomous
 
 # Overview
 
-This workflow is implemented as a batch process using simple Python 3 scripting:
+This work flow is implemented as a batch process using simple Python 3 scripting and
+here the data flow:
 
-<img src="http://www.fmatz.com/Ring-Schema3.png">
+<img src="https://www.fmatz.com/Ring-Schema3.png">
 
-- The short [presentation 1](https://www.fmatz.com/RoOGJ-x/RoOGJ-x.html)
+##### The **_`Ring of Oracle GeoJSON `_** Service :
+<img src="https://www.fmatz.com/Schema.png">
 
 The Python 3 main procedure of the batch process _orageojson.py_ :
 
@@ -180,7 +182,7 @@ if __name__ == '__main__':
 dos> python37 chk_oracef3.py
 ```
 
-<img src="http://www.fmatz.com/Cx_OOra-CEF-OK.png">
+<img src="https://www.fmatz.com/Cx_OOra-CEF-OK.png">
 
 Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 
@@ -217,8 +219,6 @@ Congratulations, you can now enter the **_`Ring of Oracle GeoJSON Service`_** !
 8. Fill out for the GeoJSON export:
 
    ![image-20200913235504881](https://github.com/Fxztam/roogeos/blob/master/images/image-20200913235504881.png)
-
-   
 
 9. Congratulations !  You have created your _own GeoJSON file_ for your **_`Ring of Oracle GeoJSON Service`_** now !
 
