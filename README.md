@@ -38,7 +38,7 @@ here the data flow:
 <img src="https://www.fmatz.com/Ring-Schema3.png">
 
 ##### The **_`Ring of Oracle GeoJSON `_** Service :
-<img src="https://www.fmatz.com/Schema.png">
+<img src="https://www.fmatz.com/Ring-5.png">
 
 The Python 3 main procedure of the batch process _orageojson.py_ :
 
