@@ -259,7 +259,10 @@ Yes, it works with _UMLAUTE_ !
 
 # Known Issues
 
-- Large datasets ( tested with 500.000 : too long running..)
+- Large datasets ( tested with 500.000 : too long running.. verifying & SDO index building)
 - GeoJSON property names not table column syntax conform 
   e.g. `water-area` that means Oracle Identifier!
+- Large geoJSON Files > 1GB
+- Large geo area & elements - very slow map viewing (BBOX building on client side - JavaScript)
+
 
