@@ -259,6 +259,7 @@ Yes, it works with _UMLAUTE_ !
 
 # Known Issues
 
+- No geo lines & no geo points: only geo polygons
 - Large datasets ( tested with 500.000 : too long running.. verifying & SDO index building)
 - GeoJSON property names not table column syntax conform 
   e.g. `water-area` that means Oracle Identifier!
